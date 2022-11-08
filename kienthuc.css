@@ -1,0 +1,546 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#header {
+    height: 46.400px;
+    list-style-type: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+
+
+#hotline {
+    font-size: 16px;
+    line-height: 46.400px;
+    margin: 0 170px;
+    opacity: 0.7;
+}
+
+#hotline1 {
+    margin: -38px 230px;
+    color: red;
+    font-size: 23px;    
+}
+
+.follow-arrow {
+    font-size: 15px;
+    margin: 0 110px;
+}
+
+#follow-nav > h2 > a {
+    font-size: 15px;
+    float: right;
+    text-decoration: none;
+    color: #000;
+    line-height: 46.400px;
+    margin: 0 80px;
+    font-weight: 200;
+    position: relative;
+}
+
+#follow-nav h2:hover a {
+    color: #fa4f26;
+}
+
+#follow .follow-shop {
+    font-size: 13px;
+    padding: 0 -6px;
+}
+
+#login-nav > h2 > a {
+    font-size: 15px;
+    float: right;
+    text-decoration: none;
+    color: #000;
+    line-height: 46.400px;
+    margin: 0 30px;
+    font-weight: 200;
+}
+
+#login-nav h2:hover a {
+    color: red;
+}
+
+#login {
+    font-size: 15px;
+    line-height: 46.400px;
+    float: right;
+    margin: 0 500px;
+    font-weight: 200;
+}
+
+#login-nav .login-user {
+    font-size: 13px;
+}
+
+#header .minus-btn {
+    padding: 0 1178px;
+    line-height: 46.400px;
+}
+
+#slider {
+
+}
+
+#img-shop {
+    width: 300px;
+    height: 250px;
+    margin: -20px 70px;
+}
+
+#slider .logo-wall {
+    font-size: 25px;
+    padding: 0 350px;
+    margin: -110px 0;
+}
+
+#slider .text-input {
+    padding: 0 550px;
+    margin: 50px 0;
+}
+
+#slider .search-input {
+    float: right;
+    margin: -33px -160px;
+    position: relative;
+    font-size: 20px;
+}
+
+#sp-wall input {
+    width: 600px;
+    height: 50px;
+}
+
+#slider .ds-wall {
+    font-size: 20px;
+    padding: 0 430px;
+    margin: -107px 0;
+}
+
+#slider .search-wall {
+    font-size: 15px;
+}
+
+#slider .sh-wall {
+    float: right;
+    padding: 0 310px;
+    font-size: 30px;
+    margin: -30px 0;
+}
+
+
+.gh-wall p {
+    padding: 75px 1220px;
+}
+
+#content {
+    background-color: red;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    text-decoration: none;
+    padding: 0 80px;
+    color: #fff;
+    line-height: 46.400px;
+    display: block;
+    font-weight: 500;
+}
+
+#nav li:hover a {
+    background-color: #f00;
+    color: #000;
+}
+
+#contact {
+    width: 1180px;
+    height: 1550px;
+    border: 1px solid #d0d0d0;
+    border-style: solid;
+    margin: 0 170px;
+}
+
+#cm-wall {
+    float: right;
+    margin: -250px 20px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.wall-cm {
+    font-size: 20px;
+    margin: 10px -2px;
+}
+
+.img-sb {
+    width: 430px;
+    margin: 40px 30px;
+}
+
+#sp1 {
+    margin: -30px 20px;
+}
+
+.wall-15 {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.bt-wall {
+    margin: 10px;
+    opacity: 0.6;
+}
+
+.bt1-wall {
+    font-size: 15px;
+    line-height: 27px;
+    padding: 0 10px;
+    opacity: 0.6;
+}
+
+.img-sb1 {
+    float: right;
+    width: 430px;
+    margin: -304px 230px;
+}
+
+.wall1-15 {
+    font-size: 17px;
+    font-weight: 500;
+    float: right;
+    margin: -60px 260px;
+}
+
+.bt-wall1 {
+    opacity: 0.6;
+    margin: -60px 517px;
+    line-height: 30px;
+}
+
+.bt1-wall1 {
+    font-size: 15px;
+    float: right;
+    padding: 50px 0;
+    margin: -45px 230px;
+    opacity: 0.6;
+}
+
+.img-sb2 {
+    width: 430px;
+    margin: 30px 30px;
+}
+
+.wall2-15 {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0 27px;
+}
+
+.bt-wall2 {
+    margin: 15px 26px;
+    opacity: 0.6;
+}
+
+.bt1-wall2 {
+    font-size: 15px;
+    line-height: 27px;
+    padding: 0 25px;
+    opacity: 0.6;
+}
+
+.img-sb3 {
+    float: right;
+    width: 430px;
+    margin: -303px 230px;
+}
+
+.wall3-15 {
+    font-size: 17px;
+    font-weight: 500;
+    float: right;
+    margin: -39px 230px;
+}
+
+.bt-wall3 {
+    opacity: 0.6;
+    margin: -60px 522px;
+}
+
+.bt1-wall3 {
+    font-size: 15px;
+    line-height: 27px;
+    float: right;
+    padding: 32px 0;
+    margin: 0 260px;
+    opacity: 0.6;
+}
+
+.img-sb4 {
+    width: 430px;
+    margin: 5px 30px;
+}
+
+.wall4-15 {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0 27px;
+}
+
+.bt-wall4 {
+    margin: 15px 26px;
+    opacity: 0.6;
+}
+
+.bt1-wall4 {
+    font-size: 15px;
+    line-height: 27px;
+    padding: 0 25px;
+    opacity: 0.6;
+}
+
+.img-sb5 {
+    float: right;
+    width: 430px;
+    margin: -278px 230px;
+}
+
+.wall5-15 {
+    font-size: 17px;
+    font-weight: 500;
+    float: right;
+    margin: -39px 230px;
+}
+
+.bt-wall5 {
+    opacity: 0.6;
+    margin: -60px 515px;
+}
+
+.bt1-wall5 {
+    font-size: 15px;
+    line-height: 27px;
+    float: right;
+    padding: 32px 0;
+    margin: 0 230px;
+    opacity: 0.6;
+}
+
+.img-sb7 {
+    width: 430px;
+    margin: 5px 30px;
+}
+
+.wall7-15 {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0 27px;
+}
+
+.bt-wall7 {
+    margin: 15px 26px;
+    opacity: 0.6;
+}
+
+.bt1-wall7 {
+    font-size: 15px;
+    line-height: 27px;
+    padding: 0 25px;
+    opacity: 0.6;
+}
+
+.img-sb8 {
+    float: right;
+    width: 430px;
+    margin: -278px 230px;
+}
+
+.wall8-15 {
+    font-size: 17px;
+    font-weight: 500;
+    float: right;
+    margin: -39px 240px;
+}
+
+.bt-wall8 {
+    opacity: 0.6;
+    margin: -60px 520px;
+}
+
+.bt1-wall8 {
+    font-size: 15px;
+    line-height: 27px;
+    float: right;
+    padding: 32px 0;
+    margin: 0 227px;
+    opacity: 0.6;
+}
+
+#footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    border: solid 1px #fff;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+}
+
+#footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#footer .container .noi-dung{
+    margin-right: 30px;
+}
+#footer  .container .noi-dung.about{
+    width:40%;
+}
+#footer .container .noi-dung.about h2{
+    position: relative;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#footer .container .noi-dung.about h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+#footer .container .noi-dung.about p{
+    color: #000;
+}
+/*Thiết Lập Cho Thành Phần Icon Mạng Xã Hội*/
+.social-icon{
+    margin-top: 20px;
+    display: flex;
+}
+.social-icon li {
+    list-style: none;
+}
+.social-icon li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.social-icon li a:hover{
+    background: #f00;
+}
+.social-icon li a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+.links h2{
+    position: relative;
+    color: #000;
+    margin: 0 70px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.links h2{
+    position: relative;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.links{
+   position: relative;
+   width: 25%;
+}
+.links ul li{
+    list-style: none;
+}
+.links ul li a{
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin: 0 70px;
+    line-height: 46.400px;
+}
+.links ul li a:hover{
+    color: #000;
+}
+
+.contact h2{
+    position: relative;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.contact h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.contact{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+.contact .info{
+    position: relative;
+}
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1) {
+    color: #000;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact .info li span{
+    color: #000;
+}
+.contact .info li a{
+    color: #000;
+    text-decoration: none;
+}
+

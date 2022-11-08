@@ -1,0 +1,1024 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#header {
+    height: 46.400px;
+    list-style-type: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+
+
+#hotline {
+    font-size: 16px;
+    line-height: 46.400px;
+    margin: 0 170px;
+    opacity: 0.7;
+}
+
+#hotline1 {
+    margin: -38px 230px;
+    color: red;
+    font-size: 23px;    
+}
+
+.follow-arrow {
+    font-size: 15px;
+    margin: 0 110px;
+}
+
+#follow-nav > h2 > a {
+    font-size: 15px;
+    float: right;
+    text-decoration: none;
+    color: #000;
+    line-height: 46.400px;
+    margin: 0 80px;
+    font-weight: 200;
+    position: relative;
+}
+
+#follow-nav h2:hover a {
+    color: #fa4f26;
+}
+
+#follow .follow-shop {
+    font-size: 13px;
+    padding: 0 -6px;
+}
+
+#login-nav > h2 > a {
+    font-size: 15px;
+    float: right;
+    text-decoration: none;
+    color: #000;
+    line-height: 46.400px;
+    margin: 0 30px;
+    font-weight: 200;
+}
+
+#login-nav h2:hover a {
+    color: red;
+}
+
+#login {
+    font-size: 15px;
+    line-height: 46.400px;
+    float: right;
+    margin: 0 500px;
+    font-weight: 200;
+}
+
+#login-nav .login-user {
+    font-size: 13px;
+}
+
+#header .minus-btn {
+    padding: 0 1178px;
+    line-height: 46.400px;
+}
+
+#slider {
+
+}
+
+#img-shop {
+    width: 300px;
+    height: 250px;
+    margin: -20px 70px;
+}
+
+#slider .logo-wall {
+    font-size: 25px;
+    padding: 0 350px;
+    margin: -110px 0;
+}
+
+#slider .text-input {
+    padding: 0 550px;
+    margin: 50px 0;
+}
+
+#slider .search-input {
+    float: right;
+    margin: -33px -160px;
+    position: relative;
+    font-size: 20px;
+}
+
+#sp-wall input {
+    width: 600px;
+    height: 50px;
+}
+
+#slider .ds-wall {
+    font-size: 20px;
+    padding: 0 430px;
+    margin: -107px 0;
+}
+
+#slider .search-wall {
+    font-size: 15px;
+}
+
+#slider .sh-wall {
+    float: right;
+    padding: 0 310px;
+    font-size: 30px;
+    margin: -30px 0;
+}
+
+
+.gh-wall p {
+    padding: 75px 1220px;
+}
+
+#content {
+    background-color: red;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    text-decoration: none;
+    padding: 0 80px;
+    color: #fff;
+    line-height: 46.400px;
+    display: block;
+    font-weight: 500;
+}
+
+#nav li:hover a {
+    background-color: #f00;
+    color: #000;
+}
+
+#tactcon h2 {
+    font-size: 25px;
+    margin: 70px 190px;
+    font-weight: 600;
+}
+
+#contact {
+    margin: -120px 0;
+}
+
+#contact .elemon-sp {
+    border-radius: 2px;
+    width: 1140px;
+    height: 2150px;
+    margin: 40px 190px;
+    padding: 0 250px;
+    border-style: solid;
+    border: solid 1px #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#contact .elemon-ps {
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    margin-top: -25px;
+    margin: 150px 190px;
+    z-index: 99;
+    background: #fa4f26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+}
+
+#contact .elemon-psa {
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    margin-top: -25px;
+    margin: 150px 1310px;
+    z-index: 99;
+    background: #fa4f26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+}
+
+#contact .elemon-icon {
+    font-size: 20px;
+    color: #fff;
+}
+
+#contact .elemon-icons {
+    font-size: 20px;
+    color: #fff;
+}
+
+#contact .elemon-isempty {
+   margin: -2170px 220px;
+}
+
+#contact .img-elemon {
+    width: 150px;
+    height: 130px;
+    padding: 0 5px;
+}
+
+#contact .lean-whey {
+   
+}
+
+#contact .whey-lean {
+    width: 200px;
+    margin: 100px -20px;
+}
+
+#contact .header-lean {
+    font-size: 15px;
+    font-weight: 400;
+    margin: -100px -10px;
+}
+
+
+#contact .lean-star {
+    font-size: 15px;
+    margin: 105px -10px;
+    color: #ffac0d;
+}
+
+#contact .star-6 {
+    color: #000;
+    margin: -20px 100px;
+}
+
+#contact .money-lean {
+    color: #fa4f26;
+    font-weight: 700;
+    margin: -100px -10px;
+}
+
+#contact .lean-whey1 {
+    margin: -376px 250px;
+    min-width: 25px;
+}
+
+#contact .whey-lean1 {
+    width: 200px;
+    margin: 100px 10px;
+ }
+ 
+ #contact .header-lean1 {
+     font-size: 15px;
+     font-weight: 400;
+     margin: -100px -10px;
+
+ }
+ 
+ #contact .lean-star1 {
+     font-size: 15px;
+     margin: 105px -10px;
+     color: #ffac0d;
+ }
+ 
+ #contact .star1-6 {
+     color: #000;
+     margin: -20px 100px;
+ }
+ 
+ #contact .money-lean1 {
+     color: #fa4f26;
+     font-weight: 700;
+     margin: -100px -10px;
+ }
+
+#contact .lean-whey2 {
+    margin: -376px 450px;
+    min-width: 25px;
+}
+
+#contact .whey-lean2 {
+    width: 200px;
+    margin: 100px 80px;
+ }
+ 
+ #contact .header-lean2 h2 {
+     font-size: 15px;
+     font-weight: 400;
+     margin: -100px 80px;
+     min-width: 25%;
+     width: 300px;
+ }
+ 
+ #contact .lean-star2 {
+    font-size: 15px;
+    margin: 105px 80px;
+    color: #ffac0d;
+    width: 100px;
+}
+
+#contact .star2-6 {
+    color: #000;
+    margin: -20px 80px;
+}
+
+#contact .money-lean2 p {
+    color: #fa4f26;
+    font-weight: 700;
+    margin: -100px 80px;
+    width: 200px;
+}
+
+#contact .lean-whey3 {
+    margin: -376px 750px;
+    min-width: 25px;
+}
+
+#contact .whey-lean3 {
+    width: 200px;
+    margin: 100px 80px;
+ }
+ 
+ #contact .header-lean3 h2 {
+     font-size: 15px;
+     font-weight: 400;
+     margin: -100px 80px;
+     min-width: 25%;
+     width: 300px;
+ }
+ 
+ #contact .lean-star3 {
+    font-size: 15px;
+    margin: 105px 80px;
+    color: #ffac0d;
+    width: 100px;
+}
+
+#contact .star3-6 {
+    color: #000;
+    margin: -20px 100px;
+}
+
+#contact .money-lean3 p {
+    color: #fa4f26;
+    font-weight: 700;
+    margin: -100px 80px;
+    width: 200px;
+}
+
+#contact .lean-whey4 {
+   margin-top: 400px;
+}
+
+#contact .whey-lean4 {
+    width: 200px;
+    margin: 100px -20px;
+}
+
+#contact .header-lean4 h2{
+    font-size: 15px;
+    font-weight: 400;
+    margin: -100px -10px;
+}
+
+#contact .lean-star4 {
+    font-size: 15px;
+    margin: 105px -10px;
+    color: #ffac0d;
+}
+
+#contact .star4-6 {
+    color: #000;
+    margin: -20px 80px;
+}
+
+#contact .money-lean4 {
+    color: #fa4f26;
+    font-weight: 700;
+    margin: -100px -10px;
+}
+
+#contact .lean-whey5 {
+    margin: -376px 250px;
+    min-width: 25px;
+}
+
+#contact .whey-lean5 {
+    width: 200px;
+    margin: 100px 10px;
+ }
+ 
+ #contact .header-lean5 h2 {
+     font-size: 15px;
+     font-weight: 400;
+     margin: -100px -10px;
+
+ }
+ 
+ #contact .lean-star5 {
+     font-size: 15px;
+     margin: 105px -10px;
+     color: #ffac0d;
+ }
+ 
+ #contact .star5-6 {
+     color: #000;
+     margin: -20px 60px;
+ }
+ 
+ #contact .money-lean5 {
+     color: #fa4f26;
+     font-weight: 700;
+     margin: -100px -10px;
+ }
+
+ #contact .lean-whey6 {
+    margin: -376px 450px;
+    min-width: 25px;
+}
+
+#contact .whey-lean6 {
+    width: 200px;
+    margin: 100px 80px;
+ }
+ 
+ #contact .header-lean6 h2 {
+     font-size: 15px;
+     font-weight: 400;
+     margin: -100px 80px;
+     min-width: 25%;
+     width: 300px;
+ }
+ 
+ #contact .lean-star6 {
+    font-size: 15px;
+    margin: 105px 80px;
+    color: #ffac0d;
+    width: 100px;
+}
+
+#contact .star6-6 {
+    color: #000;
+    margin: -20px 100px;
+}
+
+#contact .money-lean6 p {
+    color: #fa4f26;
+    font-weight: 700;
+    margin: -100px 80px;
+    width: 200px;
+}
+
+#contact .lean-whey7 {
+    margin: -376px 750px;
+    min-width: 25px;
+}
+
+#contact .whey-lean7 {
+    width: 200px;
+    margin: 100px 80px;
+ }
+ 
+ #contact .header-lean7 h2 {
+     font-size: 15px;
+     font-weight: 400;
+     margin: -100px 80px;
+     min-width: 25%;
+     width: 300px;
+ }
+ 
+ #contact .lean-star7 {
+    font-size: 15px;
+    margin: 105px 80px;
+    color: #ffac0d;
+    width: 100px;
+}
+
+#contact .star7-6 {
+    color: #000;
+    margin: -20px 100px;
+}
+
+#contact .money-lean7 p {
+    color: #fa4f26;
+    font-weight: 700;
+    margin: -100px 80px;
+    width: 200px;
+}
+
+
+#contact .lean-whey8{
+    margin-top: 400px;
+ }
+ 
+ #contact .whey-lean8{
+     width: 200px;
+     margin: 100px -20px;
+ }
+ 
+ #contact .header-lean8 h2{
+     font-size: 15px;
+     font-weight: 400;
+     margin: -100px -10px;
+ }
+ 
+ #contact .lean-star8{
+     font-size: 15px;
+     margin: 105px -10px;
+     color: #ffac0d;
+ }
+ 
+ #contact .star8-6 {
+     color: #000;
+     margin: -20px 100px;
+ }
+ 
+ #contact .money-lean8{
+     color: #fa4f26;
+     font-weight: 700;
+     margin: -100px -10px;
+ }
+
+ #contact .lean-whey9 {
+    margin: -376px 250px;
+    min-width: 25px;
+}
+
+#contact .whey-lean9 {
+    width: 200px;
+    margin: 100px 10px;
+ }
+ 
+ #contact .header-lean9 h2 {
+     font-size: 15px;
+     font-weight: 400;
+     margin: -100px -10px;
+
+ }
+ 
+ #contact .lean-star9 {
+     font-size: 15px;
+     margin: 105px -10px;
+     color: #ffac0d;
+ }
+ 
+ #contact .star9-6 {
+     color: #000;
+     margin: -20px 100px;
+ }
+ 
+ #contact .money-lean9 {
+     color: #fa4f26;
+     font-weight: 700;
+     margin: -100px -10px;
+}
+
+#contact .lean-whey10 {
+    margin: -376px 450px;
+    min-width: 25px;
+}
+
+#contact .whey-lean10 {
+    width: 200px;
+    margin: 100px 80px;
+ }
+ 
+ #contact .header-lean10 h2 {
+     font-size: 15px;
+     font-weight: 400;
+     margin: -100px 80px;
+     min-width: 25%;
+     width: 300px;
+ }
+ 
+ #contact .lean-star10 {
+    font-size: 15px;
+    margin: 105px 80px;
+    color: #ffac0d;
+    width: 100px;
+}
+
+#contact .star10-6 {
+    color: #000;
+    margin: -20px 100px;
+}
+
+#contact .money-lean10 p {
+    color: #fa4f26;
+    font-weight: 700;
+    margin: -100px 80px;
+    width: 200px;
+}
+
+#contact .lean-whey11 {
+    margin: -376px 750px;
+    min-width: 25px;
+}
+
+#contact .whey-lean11 {
+    width: 200px;
+    margin: 100px 80px;
+ }
+ 
+ #contact .header-lean11 h2 {
+     font-size: 15px;
+     font-weight: 400;
+     margin: -100px 80px;
+     min-width: 25%;
+     width: 300px;
+ }
+ 
+ #contact .lean-star11 {
+    font-size: 15px;
+    margin: 105px 80px;
+    color: #ffac0d;
+    width: 100px;
+}
+
+#contact .star11-6 {
+    color: #000;
+    margin: -20px 80px;
+}
+
+#contact .money-lean11 p {
+    color: #fa4f26;
+    font-weight: 700;
+    margin: -100px 80px;
+    width: 200px;
+}
+
+#contact .lean-whey12 {
+    margin-top: 400px;
+ }
+ 
+ #contact .whey-lean12 {
+     width: 200px;
+     margin: 100px -20px;
+ }
+ 
+ #contact .header-lean12 h2{
+     font-size: 15px;
+     font-weight: 400;
+     margin: -100px -10px;
+ }
+ 
+ #contact .lean-star12 {
+     font-size: 15px;
+     margin: 105px -10px;
+     color: #ffac0d;
+ }
+ 
+ #contact .star12-6 {
+     color: #000;
+     margin: -20px 100px;
+ }
+ 
+ #contact .money-lean12 {
+     color: #fa4f26;
+     font-weight: 700;
+     margin: -100px -10px;
+ }
+
+ #contact .lean-whey13 {
+    margin: -376px 250px;
+    min-width: 25px;
+}
+
+#contact .whey-lean13 {
+    width: 200px;
+    margin: 100px 10px;
+ }
+ 
+ #contact .header-lean13 h2 {
+     font-size: 15px;
+     font-weight: 400;
+     margin: -100px -10px;
+
+ }
+ 
+ #contact .lean-star13 {
+     font-size: 15px;
+     margin: 105px -10px;
+     color: #ffac0d;
+ }
+ 
+ #contact .star13-6 {
+     color: #000;
+     margin: -20px 100px;
+ }
+ 
+ #contact .money-lean13 {
+     color: #fa4f26;
+     font-weight: 700;
+     margin: -100px -10px;
+}
+
+#contact .lean-whey14 {
+    margin: -376px 450px;
+    min-width: 25px;
+}
+
+#contact .whey-lean14 {
+    width: 200px;
+    margin: 100px 80px;
+ }
+ 
+ #contact .header-lean14 h2 {
+     font-size: 15px;
+     font-weight: 400;
+     margin: -100px 80px;
+     min-width: 25%;
+     width: 300px;
+ }
+ 
+ #contact .lean-star14 {
+    font-size: 15px;
+    margin: 105px 80px;
+    color: #ffac0d;
+    width: 100px;
+}
+
+#contact .star14-6 {
+    color: #000;
+    margin: -20px 100px;
+}
+
+#contact .money-lean14 p {
+    color: #fa4f26;
+    font-weight: 700;
+    margin: -100px 80px;
+    width: 200px;
+}
+
+#contact .lean-whey15 {
+    margin: -376px 750px;
+    min-width: 25px;
+}
+
+#contact .whey-lean15 {
+    width: 200px;
+    margin: 100px 80px;
+ }
+ 
+ #contact .header-lean15 h2 {
+     font-size: 15px;
+     font-weight: 400;
+     margin: -100px 80px;
+     min-width: 25%;
+     width: 300px;
+ }
+ 
+ #contact .lean-star15 {
+    font-size: 15px;
+    margin: 105px 80px;
+    color: #ffac0d;
+    width: 100px;
+}
+
+#contact .star15-6 {
+    color: #000;
+    margin: -20px 100px;
+}
+
+#contact .money-lean15 p {
+    color: #fa4f26;
+    font-weight: 700;
+    margin: -100px 80px;
+    width: 200px;
+}
+
+#contact .lean-whey16 {
+    margin-top: 400px;
+ }
+ 
+ #contact .whey-lean16 {
+     width: 200px;
+     margin: 100px -20px;
+ }
+ 
+ #contact .header-lean16 h2{
+     font-size: 15px;
+     font-weight: 400;
+     margin: -100px -10px;
+ }
+ 
+ #contact .lean-star16 {
+     font-size: 15px;
+     margin: 105px -10px;
+     color: #ffac0d;
+ }
+ 
+ #contact .star16-6 {
+     color: #000;
+     margin: -20px 80px;
+ }
+ 
+ #contact .money-lean16 {
+     color: #fa4f26;
+     font-weight: 700;
+     margin: -100px -10px;
+ }
+
+ #contact .lean-whey17 {
+    margin: -376px 250px;
+    min-width: 25px;
+}
+
+#contact .whey-lean17 {
+    width: 200px;
+    margin: 100px 10px;
+ }
+ 
+ #contact .header-lean17 h2 {
+     font-size: 15px;
+     font-weight: 400;
+     margin: -100px -10px;
+
+ }
+ 
+ #contact .lean-star17 {
+     font-size: 15px;
+     margin: 105px -10px;
+     color: #ffac0d;
+ }
+ 
+ #contact .star17-6 {
+     color: #000;
+     margin: -20px 80px;
+ }
+ 
+ #contact .money-lean17 {
+     color: #fa4f26;
+     font-weight: 700;
+     margin: -100px -10px;
+}
+
+#footer{
+    position: relative;
+    width: 1550px;
+    height: auto;
+    padding: 50px -20px;
+    margin: 0 -215px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 500px;
+    border: solid 1px #fff;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+}
+
+#footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#footer .container .noi-dung{
+    margin-right: 30px;
+}
+#footer  .container .noi-dung.about{
+    width:40%;
+}
+#footer .container .noi-dung.about h2{
+    position: relative;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin: 10px 20px;
+}
+#footer .container .noi-dung.about h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+#footer .container .noi-dung.about p{
+    color: #000;
+    margin: 35px 0;
+}
+/*Thiết Lập Cho Thành Phần Icon Mạng Xã Hội*/
+.social-icon{
+    margin-top: 20px;
+    display: flex;
+}
+.social-icon li {
+    list-style: none;
+}
+.social-icon li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 5px 5px;
+}
+.social-icon li a:hover{
+    background: #f00;
+}
+.social-icon li a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+.links h2{
+    position: relative;
+    color: #000;
+    margin: 0 70px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.links h2{
+    position: relative;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.links{
+   position: relative;
+   width: 25%;
+}
+.links ul li{
+    list-style: none;
+}
+.links ul li a{
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin: 0 70px;
+    line-height: 46.400px;
+}
+.links ul li a:hover{
+    color: #000;
+}
+
+.contact h2{
+    position: relative;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.contact h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.contact{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+.contact .info{
+    position: relative;
+}
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1) {
+    color: #000;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact .info li span{
+    color: #000;
+}
+.contact .info li a{
+    color: #000;
+    text-decoration: none;
+}
+
+
